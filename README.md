@@ -1,6 +1,6 @@
-# 📧 LogiSpamDetector — Spam Mail Prediction using Logistic Regression
+# 📧 LogiSpamDetector - Spam Mail Prediction using Logistic Regression
 
-A supervised machine learning project that classifies email/SMS messages as **Spam** or **Ham (Not Spam)** using Logistic Regression with TF-IDF feature extraction. The project covers the complete ML pipeline — from exploratory data analysis and preprocessing to model training, evaluation, and a live predictive system.
+A supervised machine learning project that classifies email/SMS messages as **Spam** or **Ham (Not Spam)** using Logistic Regression with TF-IDF feature extraction. The project covers the complete ML pipeline - from exploratory data analysis and preprocessing to model training, evaluation, and a live predictive system.
 
 ---
 
@@ -123,8 +123,8 @@ X_train_features = feature_extraction.fit_transform(X_train)
 X_test_features = feature_extraction.transform(X_test)
 ```
 
-- `fit_transform` on training data — learns vocabulary and transforms
-- `transform` only on test data — prevents data leakage
+- `fit_transform` on training data - learns vocabulary and transforms
+- `transform` only on test data - prevents data leakage
 
 ---
 
@@ -215,7 +215,7 @@ The notebook is fully self-contained. Run cells top to bottom to reproduce the f
 | Training Set | ~96.19% |
 | Test Set | ~95.45% |
 
-Training and test accuracy are close to each other and both near 96%, indicating the model is **neither overfitting nor underfitting** — a well-generalized classifier.
+Training and test accuracy are close to each other and both near 96%, indicating the model is **neither overfitting nor underfitting** - a well-generalized classifier.
 
 ---
 
