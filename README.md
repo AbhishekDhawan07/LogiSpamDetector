@@ -25,7 +25,7 @@ A supervised machine learning project that classifies email/SMS messages as **Sp
 
 LogiSpamDetector is a text classification project that detects whether an email or SMS message is spam or legitimate (ham). It uses **TF-IDF (Term Frequency-Inverse Document Frequency)** to convert raw message text into numerical feature vectors, and trains a **Logistic Regression** classifier on top of those features.
 
-The project demonstrates a clean end-to-end machine learning workflow in Python using `scikit-learn`, `pandas`, `matplotlib`, and `seaborn` — suitable as a portfolio project or learning resource for NLP-based classification tasks.
+The project demonstrates a clean end-to-end machine learning workflow in Python using `scikit-learn`, `pandas`, `matplotlib`, and `seaborn` - suitable as a portfolio project or learning resource for NLP-based classification tasks.
 
 ---
 
